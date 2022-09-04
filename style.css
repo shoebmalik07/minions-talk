@@ -1,50 +1,58 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: salmon;
 }
-h1{
+
+h1 {
     text-align: center;
     margin: 50px 0 30px 0;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.main{
+
+.main {
     display: flex;
     flex-direction: column;
     gap: 30px;
     align-items: center;
     /* border: 2px solid red; */
-    
-
 }
-textarea{
+
+textarea {
     width: 500px;
     border: none;
     border-radius: 5px;
     background-color: antiquewhite;
+    padding: 1.2rem;
 }
-button{
+
+button {
     border: none;
     background-color: antiquewhite;
     padding: 10px;
     border-radius: 10px;
+    border: 0.5px solid salmon;
 }
 
+button:hover {
+    background-color: salmon;
+    color: white;
+    border: 0.5px solid white;
+}
 
-footer{
+footer {
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-
 }
-footer a{
+
+footer a {
     text-decoration: none;
     padding: 30px;
     font-size: 20px;
